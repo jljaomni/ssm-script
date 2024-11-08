@@ -46,8 +46,8 @@ echo "Instalando dependencias de Python..."
 python3 -m pip install --user boto3 subprocess argparse readchar rich
 
 # Solicitar al usuario el nombre de la sesión SSO
-echo -n "Ingrese el nombre de la sesión SSO: "
-read SSO_SESSION_NAME
+exec < /dev/tty
+read -r -p "Ingrese el nombre de la sesión SSO: " SSO_SESSION_NAME
 
 # Crear o actualizar el archivo de configuración de AWS con los perfiles SSO
 echo "Actualizando la configuración de AWS para SSO..."
