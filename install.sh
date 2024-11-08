@@ -5,7 +5,7 @@ REPO_URL="https://github.com/jljaomni/ssm-script"
 DEST_DIR="$HOME/.sso"
 AWS_CONFIG_DIR="$HOME/.aws"
 AWS_CONFIG_FILE="$AWS_CONFIG_DIR/config"
-CONFIG_JSON_FILE="config.json"  # Nombre del archivo JSON de configuración en el directorio del repositorio
+CONFIG_JSON_FILE="sso_config.json" 
 BASHRC_FILE="$HOME/.bashrc"
 
 # Actualizar el sistema e instalar jq si no está presente
@@ -83,7 +83,7 @@ if ! grep -q "function auth_aws()" "$BASHRC_FILE"; then
 
 # Función para ejecutar el script auth_aws.py
 function auth_aws() {
-    python3 "$HOME/.sso/auth_aws.py"
+    python3 "$HOME/.sso/aws_auth.py"
 }
 EOL
 fi
@@ -93,7 +93,7 @@ if ! grep -q "function aws_ec2()" "$BASHRC_FILE"; then
 
 # Función para ejecutar el script aws_ec2.py
 function aws_ec2() {
-    python3 "$HOME/.sso/aws_ec2.py"
+    python3 "$HOME/.sso/sso_ec2.py"
 }
 EOL
 fi
