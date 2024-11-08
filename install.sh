@@ -31,8 +31,8 @@ if [ ! -d "$EXTRACTED_DIR" ]; then
   exit 1
 fi
 
-# Copiar los archivos al directorio destino
-cp -R "$EXTRACTED_DIR/"* "$DEST_DIR/"
+# Copiar los archivos al directorio destino con el flag -f para sobrescribir sin preguntar
+cp -Rf "$EXTRACTED_DIR/"* "$DEST_DIR/"
 rm -rf /tmp/repo.zip "$EXTRACTED_DIR"
 
 # Verificar que el archivo JSON existe en el destino
