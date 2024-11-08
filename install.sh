@@ -5,7 +5,7 @@ REPO_URL="https://github.com/jljaomni/ssm-script"
 DEST_DIR="$HOME/.sso"
 AWS_CONFIG_DIR="$HOME/.aws"
 AWS_CONFIG_FILE="$AWS_CONFIG_DIR/config"
-CONFIG_JSON_FILE="sso_config.json" 
+CONFIG_JSON_FILE="sso_config.json"  # Asegúrate de que el archivo JSON de configuración tenga este nombre
 BASHRC_FILE="$HOME/.bashrc"
 
 # Actualizar el sistema e instalar jq si no está presente
@@ -21,8 +21,19 @@ mkdir -p "$AWS_CONFIG_DIR"
 echo "Descargando archivos del repositorio..."
 curl -L "$REPO_URL/archive/main.zip" -o /tmp/repo.zip
 unzip -q /tmp/repo.zip -d /tmp/
-cp -R /tmp/repositorio-main/* "$DEST_DIR/"
-rm -rf /tmp/repo.zip /tmp/repositorio-main
+
+# Especificar el nombre exacto del directorio extraído
+EXTRACTED_DIR="/tmp/ssm-script-main"
+
+# Verificar que el directorio extraído existe antes de copiar
+if [ ! -d "$EXTRACTED_DIR" ]; then
+  echo "Error: No se encontró el directorio extraído."
+  exit 1
+fi
+
+# Copiar los archivos al directorio destino
+cp -R "$EXTRACTED_DIR/"* "$DEST_DIR/"
+rm -rf /tmp/repo.zip "$EXTRACTED_DIR"
 
 # Verificar que el archivo JSON existe en el destino
 if [ ! -f "$DEST_DIR/$CONFIG_JSON_FILE" ]; then
