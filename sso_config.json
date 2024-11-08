@@ -1,0 +1,213 @@
+[
+    {
+      "profile": "backups",
+      "sso_account_id": "930526072420",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "demos",
+      "sso_account_id": "654654518162",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "devops",
+      "sso_account_id": "760457159344",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "sandbox",
+      "sso_account_id": "059981595999",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "Terpel_Prod",
+      "sso_account_id": "959008892140",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "terpel_stg",
+      "sso_account_id": "599956562004",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_demo_stg",
+      "sso_account_id": "271054059356",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_julio_prod",
+      "sso_account_id": "420785177820",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_julio_stg",
+      "sso_account_id": "073822838292",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_monge_prod",
+      "sso_account_id": "687423330665",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_monge_stg",
+      "sso_account_id": "326786929121",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_patagonia_prod",
+      "sso_account_id": "712667144381",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_patagonia_stg",
+      "sso_account_id": "368473446966",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_plazalama_prod",
+      "sso_account_id": "250747855813",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_plazalama_stg",
+      "sso_account_id": "752562338871",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_sla_prod",
+      "sso_account_id": "924088776865",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_sla_stg",
+      "sso_account_id": "599458110541",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_tia_prod",
+      "sso_account_id": "364205590346",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_tia_stg",
+      "sso_account_id": "723438241008",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_front_prod",
+      "sso_account_id": "548431828361",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_front_stg",
+      "sso_account_id": "248426401719",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_mng_omsv2",
+      "sso_account_id": "711387124032",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_prod_app_multi",
+      "sso_account_id": "654654423286",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_prod_core_multi",
+      "sso_account_id": "471112717893",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_akeneo_prod",
+      "sso_account_id": "492526978392",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "oms_akeneo_stg",
+      "sso_account_id": "272249295785",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "seguridad",
+      "sso_account_id": "842675996573",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "grupomelo",
+      "sso_account_id": "058542327309",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "mdl_prod",
+      "sso_account_id": "427102849677",
+      "sso_role_name": "AWSAdministratorAccess",
+      "region": "us-east-1",
+      "output": "json"
+    },
+    {
+      "profile": "FDA",
+      "sso_account_id": "231227903961",
+      "sso_role_name": "Omnipro-SAMLFullAdmin",
+      "region": "us-east-1",
+      "output": "json"
+    }
+  ]
+  

@@ -1,0 +1,38 @@
+[
+    {
+        "profile": "komax",
+        "account": "535558983168",
+        "region": "us-east-1",
+        "role": "Omnipro-SAMLFullAdmin"
+    },
+    {
+        "profile": "FDA",
+        "account": "231227903961",
+        "region": "us-east-1",
+        "role": "Omnipro-SAMLFullAdmin"
+    },
+    {
+        "profile": "CCP",
+        "account": "724702920146",
+        "region": "us-east-1",
+        "role": "Omnipro-SAMLFullAdmin"
+    },
+    {
+        "profile": "GBANK",
+        "account": "397983432148",
+        "region": "us-east-1",
+        "role": "Omnipro-SAMLFullAdmin"
+    },
+    {
+        "profile": "kupfer",
+        "account": "811531987239",
+        "region": "us-east-1",
+        "role": "Omnipro-SAMLFullAdmin"
+    },
+    {
+        "profile": "panafoto",
+        "account": "524095484249",
+        "region": "us-east-1",
+        "role": "Omnipro-SAMLFullAdmin"
+    }
+]
